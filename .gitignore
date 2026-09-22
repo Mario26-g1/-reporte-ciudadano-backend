@@ -1,0 +1,15 @@
+# Entorno virtual — se reinstala con requirements.txt, no se sube
+venv/
+
+# Variables de entorno — CONTIENE SECRETOS REALES (password de BD, JWT key)
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Fotos subidas por usuarios — son datos, no código
+uploads/
+
+# Archivos del sistema
+.DS_Store
